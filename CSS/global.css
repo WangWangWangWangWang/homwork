@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500');
+*{
+    font-family:"Oswald","微軟正黑體",sans-serif;
+    box-sizing : border-box;
+}
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li{
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    /* max-width: 100%; /* 會隨著框架縮放 不會超過*/
+    width: 100%;
+
+}
+
+li,ul,li{
+    list-style: none;
+}
+
+.full-width{
+    width: 100%;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear:both;
+    /* 去除浮動 */
+}
+
+.nopa{
+    padding:0!important;
+}
+
+@media (min-width: 576px){
+.jumbotron {
+    padding: 1rem 1rem;
+}
+}
+
+div#discount {
+    background-image: url(http://bpic.588ku.com/back_pic/00/07/21/705629d756ec297.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    padding-top: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+

@@ -1,0 +1,160 @@
+
+@media screen and (min-width:1200px){
+
+    .fixed-width{
+        width: 1200px;
+        margin: auto;
+    }
+    .top{
+        height: 30px;
+        margin-top: 0px;
+        background-color: #333;
+        
+        font-size: 13px;
+        text-align: right;
+        padding-top: 4px;
+        padding-right: 10px;
+    }
+    .top a{
+        color: #fff;
+    }
+
+    .col-6{
+        width: calc(100% / 12 * 6);  /* 2 */
+    }
+    .col-5{
+        width: calc(100% / 12 * 5);  
+    }
+    .col-4{
+        width: calc(100% / 12 * 4);  /* 3 */
+    }
+    .col-3{
+        width: calc(100% / 12 * 3);  /* 4 */
+    }
+    .col-2{
+        width: calc(100% / 12 * 2);  
+    }
+    .col-1{
+        width: calc(100% / 12 * 1);  
+    }
+    .col-7{
+        width: calc(100% / 12 * 7); 
+    }
+    .col-8{
+        width: calc(100% / 12 * 8); 
+    }
+    .col-9{
+        width: calc(100% / 12 * 9); 
+    }
+    .col-10{
+        width: calc(100% / 12 * 10); 
+    }
+    .col-11{
+        width: calc(100% / 12 * 11); 
+    }
+    .col-12{
+        width: calc(100% / 12 * 12);  
+    }
+    
+    [class^="col"] {
+        float: left;
+        padding: 15px;
+        
+    }
+        
+    :root{
+        --primaryColor: #ffee91;
+    }
+    
+    @media (min-width: 576px){
+    .jumbotron {
+    padding: 1rem 1rem;
+    }
+    }
+
+    div#discount {
+    background-image: url(http://horsemagazine.es/wp-content/uploads/2015/06/KUDAbandos_maldives_beach.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    padding-top: 200px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    }
+    div#new {
+    background-image: url(https://cloudfront.beautyheaven.com.au/sites/default/files/styles/heaven_fullsize/public/gallery/feature/summermain_0.jpg?itok=oAmqhSdG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    padding-top: 200px;
+    padding-right:200px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    }
+    div#new #bnn{
+        visibility: visible;
+    }
+
+    div#last {
+    background-image: url(https://www.kveller.com/wp-content/uploads/2016/06/iStock_87775675_MEDIUM-1200x800.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    padding-top: 200px;
+    padding-left:200px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    }
+
+    footer{
+    background-image: linear-gradient(to bottom ,rgba(255, 254, 254, 0.8),rgba(255, 255, 255, 0.5)), url(https://www.kentzsafaris.com/images/sliders/honeymoon-and-beach-holidays.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -999;
+    height: 300px;
+    padding-top: 20px;
+    margin-top: 10px;
+    /* margin-bottom: 30px;  */
+    }
+
+    footer a{
+        color: #666;
+        padding-left: 30px;
+    }
+
+    .btn1 {
+        display: inline-block;
+        padding: 5px 10px;
+        color: rgb(44, 49, 0);
+        background-color: var(--primaryColor);
+        text-decoration: none;
+    }
+
+    .col-2 h5{
+        padding-bottom: 10px;
+    }
+
+    .col-6{
+        text-align: center;
+    }
+    .col-6 li{
+        padding-bottom: 20px;
+    }
+    
+    .btn2 {
+        display: inline-block;
+        width: 150px;
+        height: 35px;
+        padding: 5px 5px;
+        color: rgb(44, 49, 0);
+        background-color: var(--primaryColor);
+        text-decoration: none;
+    }
+
+
+
+}

@@ -1,0 +1,161 @@
+
+/* @media screen and (min-width:600px){
+
+} */
+
+
+.fixed-width{
+    width: 100%;
+    margin: auto;
+}
+
+
+[class^="col"] {
+    width: 100%;
+    padding: 15px;
+    
+}
+
+.top{
+    height: 30px;
+    margin-top: 0px;
+    background-color: #333;
+    
+    font-size: 13px;
+    text-align: right;
+    padding-top: 4px;
+    padding-right: 10px;
+}
+.top a{
+    color: #fff;
+}
+
+.col-6{
+    width: calc(100% / 12 * 6);  /* 2 */
+}
+.col-5{
+    width: calc(100% / 12 * 5);  
+}
+.col-4{
+    width: calc(100% / 12 * 4);  /* 3 */
+}
+.col-3{
+    width: calc(100% / 12 * 3);  /* 4 */
+}
+.col-2{
+    width: calc(100% / 12 * 2);  
+}
+.col-1{
+    width: calc(100% / 12 * 1);  
+}
+.col-7{
+    width: calc(100% / 12 * 7); 
+}
+.col-8{
+    width: calc(100% / 12 * 8); 
+}
+.col-9{
+    width: calc(100% / 12 * 9); 
+}
+.col-10{
+    width: calc(100% / 12 * 10); 
+}
+.col-11{
+    width: calc(100% / 12 * 11); 
+}
+.col-12{
+    width: calc(100% / 12 * 12);  
+}
+
+:root{
+    --primaryColor: #ffee91;
+}
+
+@media (max-width: 575px){
+    .jumbotron {
+    padding: 0.5rem 0.5rem;
+    }
+    }
+    div#discount {
+        background-image: url(http://bpic.588ku.com/back_pic/00/07/21/705629d756ec297.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        padding-top: 5px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        }
+        
+        div#new {
+        background-image: url(https://cloudfront.beautyheaven.com.au/sites/default/files/styles/heaven_fullsize/public/gallery/feature/summermain_0.jpg?itok=oAmqhSdG);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        padding-top: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding-right:20px;
+ 
+        }
+        div#last {
+        background-image: url(https://www.kveller.com/wp-content/uploads/2016/06/iStock_87775675_MEDIUM-1200x800.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+        padding-top: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding-left:20px;
+        }
+        div#new #bnn{
+            visibility: hidden;
+        }
+    
+        footer{
+        background-image: linear-gradient(to bottom ,rgba(255, 254, 254, 0.8),rgba(255, 255, 255, 0.5)), url(https://images.unsplash.com/photo-1530567481903-d02a44c52f9f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1200&h=300&fit=crop&ixid=eyJhcHBfaWQiOjF9&s=97bd991eac93887888ab699b94b42a65);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        z-index: -999;
+        height: 300px;
+        padding-top: 2px;
+        margin-top: 2px;
+        /* margin-bottom: 30px;  */
+        }
+    
+        footer a{
+            color: #666;
+            padding-left: 2px;
+        }
+    
+        .btn1 {
+            display: inline-block;
+            padding: 5px 10px;
+            color: rgb(44, 49, 0);
+            background-color: var(--primaryColor);
+            text-decoration: none;
+        }
+    
+        .col-2 h5{
+            padding-bottom: 2px;
+        }
+    
+        .col-6{
+            text-align: center;
+        }
+        .col-6 li{
+            padding-bottom: 2px;
+        }
+        
+        .btn2 {
+            display: inline-block;
+            width: 150px;
+            height: 35px;
+            padding: 5px 5px;
+            color: rgb(44, 49, 0);
+            background-color: var(--primaryColor);
+            text-decoration: none;
+        }
